@@ -2,22 +2,24 @@
 
 ## Introduction
 
-Azure Data Explorer Microhack is a challenge-based, collaboration-driven, discover-by-doing learning experience. Microhacks are divided into three modules to cater enough time for the participants to understand the key concepts of Azure Data Explorer. As topics and several activities build on one another, it is recommended to complete the Microhacks in order.
+Azure Data Explorer Microhack is a challenge-based, collaboration-driven, discover-by-doing learning experience. Microhacks are divided into three modules called "labs" to cater enough time for the participants to understand the key concepts of Azure Data Explorer. As topics activities build on one another, it is recommended to complete the labs in order.
 
-- [**Microhack 1: Cluster Creation and Data Ingestion**](https://github.com/Azure/azure-kusto-microhack1)
-  This MicroHack will focus on enabling the participants to design ADX based big data analytics solution, create an ADX cluster, and ingest data into the cluster.
+- [**Lab 1:** ADX Cluster Creation, Data Ingestion and Exploration](/Lab1.md)
+  This lab focuses on enabling the participants to design ADX based big data analytics solution, create an ADX cluster, and ingest data from a variety of common sources into the cluster.
 
-- [**Microhack 2: Data Exploration and Visualization using Kusto Query Language (KQL)**](https://github.com/Azure/azure-kusto-microhack2)
-  This MicroHack will focus on enabling the participants to write Kusto queries to explore and analyze the data stored in the clusters. This includes anomaly detection, forecasting, and other advanced operations. Participants will also create common visualizations. It is recommended to complete the Microhack 1 before beginning with Microhack 2.
+- [**Lab 2:** Data exploration and visualization using Kusto Query Language (KQL)](/Lab2.md)
+  Building on Lab 1, Lab 2 focuses on enabling the participants to write kusto queries to explore and analyze the telemetry data stored in the clusters. This includes anomaly detection, forecasting, and other advanced operations. Participants will also create common visualizations.
 
-- [**Microhack 3: Advanced capabilities**](https://github.com/Azure/azure-kusto-microhack3)
-  This Microhack will focus on enabling the participants to create Materialized Views, Functions, and use advanced operators to explore and analyze the data.
+- [**Lab 3:** Advanced KQL, Policies, & Security](/Lab3.md)
+  This lab will focus on enabling the participants to create Materialized Views, Functions, and use advanced operators including Row-Level Security to prepare data assets for production scenarios.
 
-Let's get familiar with the scenario below and get Microhacking!
+Let's get familiar with the scenario below and start micro-hacking!
 
 ---
 
-## Earn a digital badge! In order to receive the ADX microhack digital badge, you will need to complete the challenges marked with 🎓 in each Microhack. Please submit the KQL queries/commands using the answer sheets found at the beginning of each microhack. </br></br>
+## Earn a Microsoft badge!
+
+In order to receive the "Azure Data Explorer Microhack" digital badge, you will need to complete the challenges marked with 🎓 in each lab. Please submit the KQL queries/commands using the answer sheets found at the beginning of each lab. You may edit your answers after or try again.
 
 <p align="center"><img src="/assets/images/Badge-microhack-2stars.png" width="300"></p>
 
@@ -25,9 +27,9 @@ Let's get familiar with the scenario below and get Microhacking!
 
 Contoso is a supply chain logistics company that runs a fleet of ships, trucks, and cargo planes to transport and deliver goods around the world. Some of the world’s largest enterprises rely on Contoso’s logistics capabilities to deliver goods to their end customers. Contoso has invested in connecting its fleet with sensors that measure temperature, pressure, humidity, tilt, shock, and light exposure inside its fleet. These sensors emit telemetry data every 1 minute, property data whenever there is a change in the device property, and command data whenever a new command is executed.
 
-Contoso is looking for a suitable data storage and analytical solution that provides out-of-the-box integration with Azure IoT services such as IoT Hub, Event Hubs as well as can read data from Storage Accounts. Contoso is developing a SaaS application that will allow its customers to track, trace and monitor their shipments. Contoso wants to offer out-of-the-box visualizations with interactive capabilities to enable its customers to drill-in/drill-out of the data. Contoso will offer its customers to view and analyze the last 1 month of data. Contoso will retain every customer’s data for up to 1 year. Contoso wants to offer blazing fast loading of visualizations to its customers. Additionally, a team of data scientists at Contoso are required to perform advanced analytics on the data to detect anomalies, forecast trends, and bring in external data sources to enrich the IoT telemetry.
+Contoso is looking for a suitable data storage and analytical solution that provides out-of-the-box integration with Azure IoT services such as Azure IoT Hub, Azure Event Hubs and can read data from Azure Storage Accounts and Amazon S3 Buckets. Contoso is developing a SaaS application that will allow its customers to track, trace and monitor their shipments. Contoso wants to offer out-of-the-box visualizations with interactive capabilities to enable its customers to drill-in/drill-out of the data. Contoso will offer its customers to view and analyze the last 1 month of data. Contoso will retain every customer’s data for up to 1 year. Contoso wants to offer blazing fast loading of visualizations to its customers. Additionally, a team of data scientists at Contoso are required to perform advanced analytics on the data to detect anomalies, forecast trends, and bring in external data sources to enrich the IoT telemetry.
 
-This Microhack walks through the steps of designing, creating, and configuring Azure Data Explorer clusters, keeping in mind these requirements. Once the cluster is deployed, this MicroHack enlists the steps to ingest data into ADX databases and tables using various integration methods such as One-Click ingestion from common data sources. As your new ADX skills are put to the test, you can refer back to these requirements or think about them as anecdotes for your own business challenges.
+This microhack walks through the steps of designing, creating, and configuring Azure Data Explorer clusters, keeping in mind these requirements. Once the cluster is deployed, this microhack enlists the steps to ingest data into a KQL databases using various integration methods such as One-Click ingestion from common data sources. As your new ADX skills are put to the test, you can refer back to these requirements or think about them as anecdotes for your own business challenges.
 
 ## Pre-requisites
 
@@ -122,8 +124,6 @@ Generally, when starting with Azure Data Explorer, you will follow the following
 
 ### Ready to go? It's Microhack time!
 
-- [**Microhack 1: Cluster creation and data ingestion**](https://github.com/Azure/azure-kusto-microhack1) 👈 Begin here!
-
-- [**Microhack 2: Data exploration and visualization using Kusto Query Language (KQL)**](https://github.com/Azure/azure-kusto-microhack2)
-
-- [**Microhack 3: Advanced capabilities**](https://github.com/Azure/azure-kusto-microhack3)
+- [**Lab 1: ADX Cluster Creation, Data Ingestion and Exploration**](/Lab1.md) 👈 Begin here!
+- [**Lab 2: Data exploration and visualization using Kusto Query Language (KQL)**](/Lab2.md)
+- [**Lab 3: Advanced KQL, Policies, & Security**](/Lab3.md)
